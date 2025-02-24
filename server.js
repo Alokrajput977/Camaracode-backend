@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const privateIp = "192.168.0.119";
+const privateIp = "10.40.40.49";
 const port = 3001;
 
 const streamsDir = path.join(__dirname, "streams");
